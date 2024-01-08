@@ -49,7 +49,6 @@ fun moverRobot(vararg movs: Int): List<Int> {
             dir++
         }
 
-        return listOf(posx, posy, dir)
         // Lo mismo de otra forma
         /**if (dir == 0) {
             posy += pasos
@@ -61,5 +60,6 @@ fun moverRobot(vararg movs: Int): List<Int> {
 
         else if ()... */
     }
-
+    
+    return listOf(posx, posy, dir)
 }
