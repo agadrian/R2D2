@@ -1,7 +1,36 @@
+
+
+class Perro(/*var nombre: String, var raza: String, var peso: Int   -> mas facil asi*/ ){
+    var nombre: String = ""
+    var raza: String = ""
+    var peso: Int = 0
+
+    constructor(nombre: String) : this(){ // this es la clase perro
+        this.nombre = nombre // = Perro.nombre
+    }
+}
+
+
 fun main(args: Array<String>) {
 
-    var r2d2pos: List<Int>
+    /*val perro1 = Perro("Dobby", "Boston terrier", 10200)*/  //mas facil asi
 
+    val perro1 = Perro()
+    perro1.nombre = "Dobby"
+    perro1.raza = "Boston"
+    perro1.peso = 10200
+
+
+
+
+
+
+
+
+
+
+     /*
+    var r2d2pos: List<Int>
     r2d2pos = moverRobot(10, 5, -2)
     println("x: ${r2d2pos[0]}, y: ${r2d2pos[1]}, dir: ${orientacionRobot(r2d2pos[2])}")
 
@@ -58,4 +87,6 @@ fun moverRobot(vararg movs: Int): List<Int> {
 
     }
     return listOf(posx, posy, dir)
+
+     */
 }
