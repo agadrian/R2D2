@@ -60,6 +60,5 @@ fun moverRobot(vararg movs: Int): List<Int> {
 
         else if ()... */
     }
-    
     return listOf(posx, posy, dir)
 }
